@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+@import 'reset.css';
+@import 'jcarousel.css';
+@import 'colorbox.css';
+
+
+
+body{
+	background: url(../images/body-background.png);
+}
+
+h1{
+	font-size: 20px;
+	color: #525252;
+	font-family: tahoma,arial,helvetica;
+	margin:10px 0 10px 20px;
+}
+
+
+@font-face{
+
+ font-family: cond; src: url('../font/myriadpro.otf'); 
+
+}
+
+h2{
+	font-size: 18px;
+	font-family: cond,arial,helvetica;
+	color: #575757;
+	font-weight: lighter;
+}
+h3{
+	color: #525252;
+	font-family: tahoma,arial,helvetica;
+	margin:10px 0;
+	font-size: 13px;
+}
+p{
+	font-family: tahoma;
+	line-height: 1.4em;
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+	font-size: 12px;
+ 	font-family: tahoma;
+ 	color: #525252;
+}
+
+.clear{
+	clear: both;
+}
+.floatleft{
+	float: left;
+	display: inline;
+}
+.floatright{
+	float: right;
+	display: inline;
+}
